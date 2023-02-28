@@ -1,5 +1,5 @@
 {
-  "name": "@finsweet/developer-starter",
+  "name": "@sophoclesenterprises/events-calendar",
   "version": "0.0.0",
   "description": "Developer starter template for Finsweet projects.",
   "homepage": "https://github.com/finsweet/developer-starter#readme",
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/finsweet/developer-starter.git"
+    "url": "git+https://github.com/dlepz/eventscalendar.git"
   },
   "bugs": {
-    "url": "https://github.com/finsweet/developer-starter/issues"
+    "url": "https://github.com/dlepz/eventscalendar/issues"
   },
   "type": "module",
   "main": "src/index.ts",
