@@ -6,6 +6,13 @@
     "paths": {
       "$utils/*": ["src/utils/*"]
     },
-    "types": ["@finsweet/ts-utils"]
+    "types": [
+      "@types/google.maps",
+      "@finsweet/ts-utils",
+      "@types/jquery",
+      "@types/mapbox-gl",
+      "@types/geojson",
+    ],
+    "resolveJsonModule": true
   }
 }

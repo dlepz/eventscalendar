@@ -6,7 +6,13 @@ const BUILD_DIRECTORY = 'dist';
 const PRODUCTION = process.env.NODE_ENV === 'production';
 
 // Config entrypoint files
-const ENTRY_POINTS = ['src/index.ts'];
+const ENTRY_POINTS = [
+  'src/index.ts',
+  'src/googlemap.ts',
+  'src/mapbox.ts',
+  'src/mapbox-stream/mapbox-stream.ts',
+  'src/barba-stream.ts',
+];
 
 // Config dev serving
 const LIVE_RELOAD = !PRODUCTION;
